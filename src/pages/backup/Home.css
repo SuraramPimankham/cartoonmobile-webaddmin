@@ -1,0 +1,27 @@
+.home-container{
+    text-align: center; /* จัดเนื้อหาตามแนวนอน (horizontal) ให้อยู่กลาง */
+    margin: 0 auto; /* จัดเนื้อหาตามแนวตั้ง (vertical) ให้อยู่กลาง */
+    font-size: 200%;
+}
+
+.home-container h2 {
+        color: white; 
+}
+
+.row-home-2 {
+    display: flex;
+    justify-content: space-around; /* จัดวางอยู่ตรงกลาง */
+    align-items: center; /* จัดให้ข้อมูลแนวตั้งตรงกลาง */
+  }
+  
+  .colunm-home-2 {
+    flex: 1; /* ให้ข้อมูลขยายเต็มพื้นที่ */
+    margin: 10px; /* ระยะห่างระหว่างข้อมูล */
+    padding: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+    h2{
+       color: black; 
+    }
+  }
+  

@@ -1,0 +1,55 @@
+/* AlertDeleteStory.css */
+
+/* Modal Styles */
+.custom-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  max-width: 80%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Modal Content Styles */
+.modal-content-alert-delete {
+  margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #bdbdbd;
+}
+
+.yes {
+  background-color: #f44336;
+  color: white;
+}
+
+.yes:hover {
+  background-color: #d32f2f;
+}

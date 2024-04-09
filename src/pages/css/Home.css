@@ -1,0 +1,93 @@
+.home-container{
+    text-align: center; /* จัดเนื้อหาตามแนวนอน (horizontal) ให้อยู่กลาง */
+    margin: 0 auto; /* จัดเนื้อหาตามแนวตั้ง (vertical) ให้อยู่กลาง */
+    font-size: 200%;
+    img{
+      width: 100%; /* รูปภาพจะเต็มพื้นที่ของพ่อคุณ */
+      height: auto; /* ความสูงของรูปภาพจะถูกปรับให้พอดีกับกว้าง */
+    }
+}
+
+.home-container h2 {
+        color: white; 
+}
+
+.row-home-2 {
+    display: flex;
+    justify-content: space-around; /* จัดวางอยู่ตรงกลาง */
+    align-items: center; /* จัดให้ข้อมูลแนวตั้งตรงกลาง */
+  }
+  
+  .colunm-home-2 {
+    flex: 1; /* ให้ข้อมูลขยายเต็มพื้นที่ */
+    margin: 10px; /* ระยะห่างระหว่างข้อมูล */
+    padding: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+    h2{
+       color: black; 
+    }
+  }
+  
+
+  .chartbox{
+    
+    display: flex;
+    height: 100%;
+
+    .boxInfo{
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .title{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+
+        }
+
+    }
+
+    .chartInfo{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    .chart{
+        height: 100%;
+        width: 100%;
+    }
+
+    .texts{
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+
+        .percentage{
+            font-weight: bold;
+            font-size: 20px;
+}
+
+            .duration{
+                font-size: 14px;
+
+            }
+        
+    }
+
+    }
+}
+
+.home-bar-score{
+
+    display: flex;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  padding: 50px 30px 50px 30pxpx;
+  color: rgba(255, 255, 255, 0.95);
+
+}

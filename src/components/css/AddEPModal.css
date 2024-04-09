@@ -1,0 +1,98 @@
+/* AddEPModal.css */
+
+/* Modal Styles */
+.custom-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  max-width: 80%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Modal Content Styles */
+.modal-content-ep {
+  margin-bottom: 20px;
+}
+
+.img-input-container-ep {
+  border: 2px dashed #090909;
+  padding: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.p-ep {
+  margin: 0;
+  color: black; /* เปลี่ยนสีของข้อความเป็นสีดำ */
+}
+
+.input-row-model {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.label-ep {
+  margin-right: 10px;
+}
+
+.input-ep {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #060606;
+}
+
+.error-message {
+  color: #f44336;
+  margin: 5px 0;
+}
+
+/* Button Styles */
+button {
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #bdbdbd;
+}
+
+.save-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.save-button:hover {
+  background-color: #388e3c;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}

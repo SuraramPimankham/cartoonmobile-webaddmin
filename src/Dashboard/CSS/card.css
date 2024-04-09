@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  padding: 50px 30px 50px 30pxpx;
+  color: rgba(255, 255, 255, 0.95);
+
+}
+
+.card-ef ul  {
+  border-radius: 10px;
+  background-color:#E46C88;
+}
+
+.main-title p {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+/* end favorit */
+/* income card start */
+
+.card-container-incom {
+  display: flex;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr 1fr ;
+  padding: 20px 30px 20px 30px; 
+  color: rgba(255, 255, 255, 0.95);
+
+}
+
+.card-ef-income{
+  border-radius: 10px;
+  background-color:#E46C88;
+}
+
+.main-title-income p {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}

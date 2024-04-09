@@ -1,0 +1,16 @@
+.bar-container{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.bar-title p {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+
+.bar-score-container{
+  
+}
